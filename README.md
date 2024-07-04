@@ -7,7 +7,8 @@ P.I.L.L.A.R is a web application designed to simplify the interaction with legal
 ![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/a0683401-a3e3-43bd-87d9-25a2e81766cc)
 
 Summary Feature : (40 Page document was used)
-![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/a858d4c9-41f7-4dc7-98ce-67c6135a7113)
+![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/49b59468-5e99-4a10-bdcb-f888811d3a5e)
+
 
 Glossary Feature :
 ![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/0ca98a3c-9cb9-4604-b38b-9bdded0af99d)
