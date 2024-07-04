@@ -30,12 +30,3 @@ Using P.I.L.L.A.R, users can easily understand and interact with legal documents
 - **Document-Related Q&A Chatbot**: Powered by Llama2 LLM, the chatbot assists users in navigating legal documents by answering specific questions related to legal content.
   
 - **Semantic Search**: Implements a semantic search feature using Elasticsearch and vector representations, enhancing search accuracy and relevance across a database of 300k legal cases.
-
-## Installation
-
-To run the application locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your/repository.git
-   cd repository-directory
