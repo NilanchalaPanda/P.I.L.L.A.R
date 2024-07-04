@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# P.I.L.L.A.R - Plain Language Legal Agreement Review
 
-## Getting Started
+P.I.L.L.A.R is a web application designed to simplify the interaction with legal documents and laws, benefiting both lawyers and individuals needing legal insights. Leveraging advanced technologies, P.I.L.L.A.R enhances the accessibility and understanding of legal content through intelligent summarization and semantic search capabilities.
 
-First, run the development server:
+## Screenshots 
+![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/48a7b492-c2d0-4fba-a81e-1415332aa181)
+![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/a0683401-a3e3-43bd-87d9-25a2e81766cc)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Summary Feature : (40 Page document was used)
+![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/a858d4c9-41f7-4dc7-98ce-67c6135a7113)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Glossary Feature :
+![image](https://github.com/NilanchalaPanda/P.I.L.L.A.R/assets/110488337/0ca98a3c-9cb9-4604-b38b-9bdded0af99d)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Tech Stack
+- **Frontend**: Next.js
+- **Backend**: Pytorch, Transformers
+- **Models**: DistilBART, Llama2 LLM
+- **Search**: Elasticsearch
 
-To learn more about Next.js, take a look at the following resources:
+## Overview
+Using P.I.L.L.A.R, users can easily understand and interact with legal documents and laws. Lawyers benefit from accessing various cases for research purposes and case preparation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Summarization of Lease Agreements**: Utilizes the DistilBART model to simplify and summarize complex lease agreements, making legal documents more accessible and understandable.
+  
+- **Document-Related Q&A Chatbot**: Powered by Llama2 LLM, the chatbot assists users in navigating legal documents by answering specific questions related to legal content.
+  
+- **Semantic Search**: Implements a semantic search feature using Elasticsearch and vector representations, enhancing search accuracy and relevance across a database of 300k legal cases.
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To run the application locally, follow these steps:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your/repository.git
+   cd repository-directory
